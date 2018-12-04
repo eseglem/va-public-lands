@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #000;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.info-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 320px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 12px;
+  margin: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6b6b76;
+  outline: none;
+  border-radius: 5px;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
